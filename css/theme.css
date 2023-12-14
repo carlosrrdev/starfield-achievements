@@ -1,0 +1,13 @@
+:root {
+  color-scheme: light dark;
+  --primary-bg-clr: #fafafa;
+  --primary-font-clr: #070C13;
+  --secondary-font-clr: #566683;
+  --starblue: #304C79;
+  --staryellow: #D7AA61;
+  --starorange: #E06237;
+  --starred: #C82336;
+  --padding-sm: 1rem;
+  --padding-base: 1.5rem;
+  --breakpoint-base: 1400px;
+}

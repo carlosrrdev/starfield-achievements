@@ -1,0 +1,20 @@
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --primary-bg-clr: #070C13;
+    --primary-font-clr: #F5F6F6;
+    --secondary-font-clr: #6A80A6;
+  }
+}
+
+@media screen and (width >= 1280px) {
+  .sa-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    row-gap: 0;
+    column-gap: 2rem;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "list progress"
+  ;
+  }
+}
