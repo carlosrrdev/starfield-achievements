@@ -1,20 +1,18 @@
 @media screen and (prefers-color-scheme: dark) {
   :root {
     --primary-bg-clr: #070C13;
-    --primary-font-clr: #F5F6F6;
+    --primary-font-clr: #c2cee3;
     --secondary-font-clr: #6A80A6;
   }
 }
 
 @media screen and (width >= 1280px) {
-  .sa-grid {
+  #sa-main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "list info";
     row-gap: 0;
-    column-gap: 2rem;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "list progress"
-  ;
+    height: fit-content;
+    column-gap: 4rem;
   }
 }

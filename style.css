@@ -7,5 +7,9 @@
 /* Utility classes */
 @import "css/utility.css";
 
+/* Components */
+@import "css/header.css";
+@import "css/main.css";
+
 /* Media queries (mobile first) */
 @import "css/queries.css";

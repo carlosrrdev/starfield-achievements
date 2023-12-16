@@ -1,0 +1,23 @@
+#sa-header {
+  position: relative;
+  border-bottom: 4px solid var(--starblue);
+  z-index: 100;
+}
+#sa-header::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background-color: var(--starorange);
+  width: 100%;
+  height: 4px;
+  z-index: 50;
+}
+#sa-header::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  background-color: var(--staryellow);
+  width: 100%;
+  height: 4px;
+  z-index: 50;
+}

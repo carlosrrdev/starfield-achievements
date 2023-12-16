@@ -1,4 +1,4 @@
-/* Custom modern-normalize + Tailwind Preflight */
+/* Custom modern-normalize + tailwind preflight */
 
 *,
 ::before,
@@ -25,6 +25,8 @@ html {
 
 body {
   margin: 0;
+  background-color: var(--primary-bg-clr);
+  color: var(--primary-font-clr);
 }
 
 hr {
@@ -147,6 +149,8 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
+  padding: 0;
+  background-color: transparent;
 }
 
 button,
@@ -159,6 +163,8 @@ button,
 [type='reset'],
 [type='submit'] {
   -webkit-appearance: button;
+  cursor: pointer;
+  color: inherit;
 }
 
 ::-moz-focus-inner {
@@ -203,4 +209,10 @@ progress {
 
 summary {
   display: list-item;
+}
+
+#sa-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }

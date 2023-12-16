@@ -1,0 +1,32 @@
+#sa-main {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+#sa-info {
+  grid-area: info;
+}
+#sa-progress {
+  position: relative;
+  margin-left: 0.5rem;
+}
+#sa-progress-icon {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+#sa-progress-icon circle {
+  fill: none;
+  stroke-width: 4px;
+  stroke: var(--starblue);
+}
+
+#sa-options-container {
+  display: flex;
+  justify-content: end;
+}
+#sa-list {
+  grid-area: list;
+}
